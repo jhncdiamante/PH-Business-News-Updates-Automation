@@ -1,0 +1,2 @@
+undetectedchromedriver
+fake_useragent

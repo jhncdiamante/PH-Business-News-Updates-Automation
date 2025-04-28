@@ -1,2 +1,5 @@
 undetectedchromedriver
 fake_useragent
+beautifulsoup4
+selenium
+requests

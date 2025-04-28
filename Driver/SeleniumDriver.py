@@ -34,6 +34,7 @@ class Driver:
         self.wait = WebDriverWait(self.driver, 30, poll_frequency=0.5)
 
     def start(self):
+        self._chrome_options.add_extension(r"D:\PythonProjects\PH-Business-News-Updates-Automation\adblocker.crx")
         for arg in self._chrome_args:
             self._chrome_options.add_argument(arg)
 
